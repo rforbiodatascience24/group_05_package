@@ -1,0 +1,32 @@
+Package: Bioporongs
+Type: Package
+Title: Little packaes that help managed the basic operations related to molecular biology dogma
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Authors@R:
+  c(person(given = "Luis",
+           family = "Martín",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s243302@dtu.dk"), 
+    person(given = "Xavi",
+           family = "Chapatte",
+           role = "aut",
+           email = "s243360@dtu.dk"),
+    person(given = "Natalia",
+           family = "Feced",
+           role = "aut",
+           email = "s243547@dtu.dk"),
+      person(given = "Daniel",
+           family = "Gil",
+           role = "aut",
+           email = "s242872@dtu.dk"),
+    person(given = "Miguel",
+           family = "Blanco",
+           role = "aut",
+           email = "s243284@dtu.dk"))
