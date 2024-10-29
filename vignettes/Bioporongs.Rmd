@@ -1,0 +1,36 @@
+---
+title: "Bioporongs"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{Bioporongs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Bioporongs)
+```
+
+## Function 1 - 
+
+## Function 2 - 
+
+## Function 3 - get_codons
+
+This function divide a biological nucleic-acid sequences (DNA or RNA) and returns a list of the codons. The starting point can be modified with the argument *start*.
+
+```{r}
+#EXAMPLE
+get_codons("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC", start = 3)
+```
+
+## Function 4 - 
+
+## Function 5 - 
