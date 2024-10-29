@@ -30,3 +30,6 @@ Authors@R:
            family = "Blanco",
            role = "aut",
            email = "s243284@dtu.dk"))
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3
