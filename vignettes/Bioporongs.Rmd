@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 library(Bioporongs)
 ```
 
+# Description of the Packages
+
 ## Function 1 - 
 
 ## Function 2 - 
