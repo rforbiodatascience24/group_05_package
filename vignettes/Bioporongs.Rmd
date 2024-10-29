@@ -20,8 +20,9 @@ library(Bioporongs)
 
 ## Function 1 - Random_DNA_seq
 This function creates a random DNA sequence with a specific sequence length.
-Example:
+
 ```{r}
+#EXAMPLE
 Random_DNA_seq(10)
 ```
 
