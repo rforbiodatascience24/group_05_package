@@ -30,7 +30,15 @@ Random_DNA_seq(10)
 
 This is the sequence that can then be used in the following function.
 
-### Function 2 - 
+
+### Function 2 - dna2rna
+This function takes a given *dna_seq* and returns its corresponding RNA sequence
+
+```{r}
+#EXAMPLE
+dna2rna("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC")
+```
+
 
 ### Function 3 - get_codons
 
