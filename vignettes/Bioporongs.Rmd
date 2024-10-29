@@ -49,7 +49,14 @@ This function divide a biological nucleic-acid sequences (DNA or RNA) and return
 get_codons("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC", start = 3)
 ```
 
-### Function 4 - 
+## Function 4 - aminoacid_sequence
+
+This function gets the sequence of codons and returns the amino acid sequence translation
+
+```{r}
+#EXAMPLE
+aminoacid_sequence(c("AUG", "UUU", "UUA", "UGG", "UCU"))
+```
 
 
 ### Function 5 - 
