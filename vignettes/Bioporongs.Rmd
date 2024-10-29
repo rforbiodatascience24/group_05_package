@@ -18,7 +18,9 @@ knitr::opts_chunk$set(
 library(Bioporongs)
 ```
 
-## Function 1 - Random_DNA_seq
+# Description of the Packages
+
+### Function 1 - Random_DNA_seq
 This function creates a random DNA sequence with a specific *sequence length*.
 
 ```{r}
@@ -28,7 +30,8 @@ Random_DNA_seq(10)
 
 This is the sequence that can then be used in the following function.
 
-## Function 2 - dna2rna
+
+### Function 2 - dna2rna
 This function takes a given *dna_seq* and returns its corresponding RNA sequence
 
 ```{r}
@@ -36,7 +39,8 @@ This function takes a given *dna_seq* and returns its corresponding RNA sequence
 dna2rna("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC")
 ```
 
-## Function 3 - get_codons
+
+### Function 3 - get_codons
 
 This function divide a biological nucleic-acid sequences (DNA or RNA) and returns a list of the codons. The starting point can be modified with the argument *start*.
 
@@ -45,6 +49,6 @@ This function divide a biological nucleic-acid sequences (DNA or RNA) and return
 get_codons("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC", start = 3)
 ```
 
-## Function 4 - 
+### Function 4 - 
 
-## Function 5 - 
+### Function 5 - 
