@@ -18,7 +18,14 @@ knitr::opts_chunk$set(
 library(Bioporongs)
 ```
 
-## Function 1 - 
+## Function 1 - Random_DNA_seq
+This function creates a random DNA sequence with a specific sequence length.
+Example:
+```{r}
+Random_DNA_seq(10)
+```
+
+This is the sequence that can then be used in the following function.
 
 ## Function 2 - 
 
