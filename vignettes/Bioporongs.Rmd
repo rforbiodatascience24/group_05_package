@@ -20,11 +20,19 @@ library(Bioporongs)
 
 # Description of the Packages
 
-## Function 1 - 
+### Function 1 - Random_DNA_seq
+This function creates a random DNA sequence with a specific *sequence length*.
 
-## Function 2 - 
+```{r}
+#EXAMPLE
+Random_DNA_seq(10)
+```
 
-## Function 3 - get_codons
+This is the sequence that can then be used in the following function.
+
+### Function 2 - 
+
+### Function 3 - get_codons
 
 This function divide a biological nucleic-acid sequences (DNA or RNA) and returns a list of the codons. The starting point can be modified with the argument *start*.
 
@@ -33,6 +41,6 @@ This function divide a biological nucleic-acid sequences (DNA or RNA) and return
 get_codons("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC", start = 3)
 ```
 
-## Function 4 - 
+### Function 4 - 
 
-## Function 5 - 
+### Function 5 - 
