@@ -58,4 +58,9 @@ This function gets the sequence of codons and returns the amino acid sequence tr
 aminoacid_sequence(c("AUG", "UUU", "UUA", "UGG", "UCU"))
 ```
 
-### Function 5 - 
+### Function 5 - BarplotAAFreq
+```{r}
+#EXAMPLE
+BarplotAAFreq("AAAGGCAK")
+```
+
