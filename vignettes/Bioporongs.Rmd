@@ -1,6 +1,6 @@
 ---
 title: "Bioporongs"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{Bioporongs}
   %\VignetteEngine{knitr::rmarkdown}
@@ -17,3 +17,13 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(Bioporongs)
 ```
+
+## Function 1 - 
+
+## Function 2 - 
+
+## Function 3 - get_codons
+
+## Function 4 - 
+
+## Function 5 - 
