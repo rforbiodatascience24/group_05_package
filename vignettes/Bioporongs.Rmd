@@ -20,6 +20,8 @@ library(Bioporongs)
 
 # Description of the Packages
 
+This R package provides tools to simulate and analyze nucleic acid sequences, allowing users to create a random DNA sequence, convert it to RNA, segment it into codons, and finally translate these codons into an amino acid sequence. By starting with the random DNA generator, users can quickly obtain a sequence that can be converted to RNA, making it compatible for further processing. The RNA sequence can then be divided into codons, with customizable start points, to reflect different reading frames. Finally, the codon sequence is translated into its corresponding amino acid sequence, facilitating analysis of protein-coding regions and supporting applications in genetic studies, bioinformatics, and sequence analysis tasks.
+
 ### Function 1 - Random_DNA_seq
 This function creates a random DNA sequence with a specific *sequence length*.
 
@@ -51,16 +53,24 @@ get_codons("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC", start = 3)
 
 ## Function 4 - aminoacid_sequence
 
-This function gets the sequence of codons and returns the amino acid sequence translation
+This function gets the sequence of *codons* and returns the amino acid sequence translation
 
 ```{r}
 #EXAMPLE
 aminoacid_sequence(c("AUG", "UUU", "UUA", "UGG", "UCU"))
 ```
 
+
 ### Function 5 - BarplotAAFreq
+
+This function generates receives a sequence of Amino acids and returns a barplot with the frequency of each of the Amino acids in the chain
+
 ```{r}
 #EXAMPLE
 BarplotAAFreq("AAAGGCAK")
 ```
+
+
+
+
 
