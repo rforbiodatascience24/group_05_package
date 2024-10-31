@@ -61,6 +61,6 @@ aminoacid_sequence(c("AUG", "UUU", "UUA", "UGG", "UCU"))
 ### Function 5 - BarplotAAFreq
 ```{r}
 #EXAMPLE
-BarplotAAFreq("AAAGGCAL")
+BarplotAAFreq("AAAGGCAK")
 ```
 
