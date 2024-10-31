@@ -33,6 +33,9 @@ Authors@R:
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
+Imports: 
+    ggplot2,
+    stringr
 Suggests: 
     knitr,
     rmarkdown,

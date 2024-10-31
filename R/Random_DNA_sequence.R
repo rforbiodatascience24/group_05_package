@@ -3,6 +3,7 @@
 #' @param seq_length
 #'
 #' @return
+#'
 #' @export
 #'
 #'
