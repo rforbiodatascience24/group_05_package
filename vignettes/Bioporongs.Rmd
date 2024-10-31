@@ -51,7 +51,7 @@ get_codons("ATGCGTACGTTAGCCGTAGCTTGAATGCTAGC", start = 3)
 
 ## Function 4 - aminoacid_sequence
 
-This function gets the sequence of codons and returns the amino acid sequence translation
+This function gets the sequence of *codons* and returns the amino acid sequence translation
 
 ```{r}
 #EXAMPLE
