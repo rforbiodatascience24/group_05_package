@@ -63,7 +63,7 @@ aminoacid_sequence(c("AUG", "UUU", "UUA", "UGG", "UCU"))
 
 ### Function 5 - BarplotAAFreq
 
-This function generates receives a sequence of Amino acids and returns a barplot with the frequency of each of the Amino acids in the chain
+This function receives a sequence of Amino acids and returns a barplot with the frequency of each of the Amino acids in the chain
 
 ```{r}
 #EXAMPLE
